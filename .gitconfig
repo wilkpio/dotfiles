@@ -1,0 +1,14 @@
+[http]
+    sslVerify = true
+
+[user]
+    name = Piotr Wilkosz
+    email = piotr.wilkosz.ext@deutsche-boerse.com
+
+[push]
+    default = simple
+
+[credential]
+    helper = cache --timeout=1000000
+
+
