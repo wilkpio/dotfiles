@@ -91,10 +91,8 @@ if getline(1) =~ '^#!.*[/\\]groovy\>'
     setf groovy
 endif
 
-let file_name = expand('%:t:r')
-if file_name == "Jenkinsfile" 
-    setf groovy
-endif
+autocmd BufNewFile,BufRead *.jenkinsfile,*.Jenkinsfile,Jenkinsfile set syntax=groovy
+
 
 " Pathogen load
 filetype off
