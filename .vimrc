@@ -104,3 +104,17 @@ filetype plugin indent on
 syntax on
 " ignore E501 - line too long
 let g:pymode_lint_ignore = "E501"
+
+" shift-tab for command mode
+nnoremap <S-Tab> <<
+" shift-tab for insert mode
+inoremap <S-Tab> <C-d>
+" tab and shift-tab in visual mode
+vnoremap <Tab> >gV
+vnoremap <S-Tab> <gV
+vnoremap <Tab> >
+vnoremap <S-Tab> <
+vnoremap > >gv
+vnoremap < <gv
+" shift + arrows for marking - windows mode :)
+behave mswin
