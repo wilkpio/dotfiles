@@ -117,4 +117,4 @@ vnoremap <S-Tab> <
 vnoremap > >gv
 vnoremap < <gv
 " shift + arrows for marking - windows mode :)
-behave mswin
+"behave mswin
