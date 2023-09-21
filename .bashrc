@@ -15,3 +15,4 @@ source ~/.bash-git-prompt_clean/gitprompt.sh
 shopt -s checkwinsize
 export PYTHONSTARTUP=$HOME/.pythonrc
 alias ll="ls -l"
+alias pogo='curl https://wttr.in/%C5%BBerniki%20Ma%C5%82e'
